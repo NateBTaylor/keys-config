@@ -1,11 +1,56 @@
 {
-  "id": "2026-06-feedback",
-  "active": true,
-  "emoji": "💬",
-  "title": "We'd love your input",
-  "message": "Tell us what you want next in Keys.",
-  "type": "feedback",
-  "prompt": "Got a request? Tell us what you'd love to see.",
-  "placeholder": "Type your idea…",
-  "submitLabel": "Send"
+  "_README": "Keys home banner config. The app shows the FIRST banner in 'banners' with active:true. To switch, set active:true on the one you want and active:false on the others. JSON has no real comments, so the _comment / _type fields below are just ignored notes. Bump a banner's 'id' whenever you want it to reappear for users who already dismissed it.",
+  "banners": [
+    {
+      "_type": "1) SINGLE SELECT  —  ACTIVE",
+      "id": "2026-06-single",
+      "active": true,
+      "emoji": "🎹",
+      "title": "What should we build next?",
+      "message": "Help us prioritize.",
+      "type": "choice",
+      "prompt": "Pick the one you want most.",
+      "choices": ["More songs", "Better practice tools", "Sheet music export", "Metronome"],
+      "allowMultiple": false,
+      "allowOther": true,
+      "submitLabel": "Submit"
+    },
+    {
+      "_type": "2) ANNOUNCEMENT  —  set active:true to use",
+      "id": "2026-06-announcement",
+      "active": false,
+      "emoji": "🎉",
+      "title": "Sheet music export is here",
+      "message": "You can now export any song to PDF from the player.",
+      "type": "announcement",
+      "actionLabel": "See what's new",
+      "actionURL": "https://bestdaylabs.com"
+    },
+    {
+      "_type": "3) INPUT FIELD / FREE RESPONSE  —  set active:true to use",
+      "id": "2026-06-input",
+      "active": false,
+      "emoji": "💬",
+      "title": "We'd love your input",
+      "message": "Tell us what you want next in Keys.",
+      "type": "input",
+      "prompt": "Got a request? Tell us what you'd love to see.",
+      "placeholder": "Type your idea…",
+      "submitLabel": "Send"
+    },
+    {
+      "_type": "4) MULTIPLE SELECT  —  set active:true to use",
+      "id": "2026-06-multi",
+      "active": false,
+      "emoji": "🎹",
+      "title": "Which features do you want?",
+      "message": "Select all that apply.",
+      "type": "choice",
+      "prompt": "Choose as many as you like.",
+      "choices": ["More songs", "Better practice tools", "Sheet music export", "Metronome"],
+      "allowMultiple": true,
+      "allowOther": false,
+      "submitLabel": "Submit"
+    }
+  ]
 }
