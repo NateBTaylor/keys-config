@@ -40,7 +40,7 @@
     },
     {
       "_type": "4) MULTIPLE SELECT  —  set active:true to use",
-      "id": "2026-06-multi",
+      "id": "2026-06-multiselect",
       "active": true,
       "emoji": "🎹",
       "title": "Which features do you want?",
