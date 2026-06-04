@@ -1,0 +1,11 @@
+{
+  "id": "2026-06-feedback",
+  "active": true,
+  "emoji": "💬",
+  "title": "We'd love your input",
+  "message": "Tell us what you want next in Keys.",
+  "type": "feedback",
+  "prompt": "Got a request? Tell us what you'd love to see.",
+  "placeholder": "Type your idea…",
+  "submitLabel": "Send"
+}
