@@ -3,8 +3,8 @@
   "banners": [
     {
       "_type": "1) SINGLE SELECT  —  ACTIVE",
-      "id": "2026-06-single",
-      "active": false,
+      "id": "2026-0605-single",
+      "active": true,
       "emoji": "🎹",
       "title": "What should we build next?",
       "message": "Help us prioritize.",
@@ -41,7 +41,7 @@
     {
       "_type": "4) MULTIPLE SELECT  —  set active:true to use",
       "id": "2026-06-multiselect",
-      "active": true,
+      "active": false,
       "emoji": "🎹",
       "title": "Which features do you want?",
       "message": "Select all that apply.",
