@@ -4,7 +4,7 @@
     {
       "_type": "1) SINGLE SELECT  —  ACTIVE",
       "id": "2026-0605-single",
-      "active": true,
+      "active": false,
       "emoji": "🎹",
       "title": "What should we build next?",
       "message": "Help us prioritize.",
@@ -28,11 +28,11 @@
     },
     {
       "_type": "3) INPUT FIELD / FREE RESPONSE  —  set active:true to use",
-      "id": "2026-06-input",
-      "active": false,
+      "id": "2026-06-input2",
+      "active": true,
       "emoji": "💬",
       "title": "We'd love your input",
-      "message": "Tell us what you want next in Keys.",
+      "message": "Tell us how to improve Keys.",
       "type": "input",
       "prompt": "Got a request? Tell us what you'd love to see.",
       "placeholder": "Type your idea…",
