@@ -3,14 +3,19 @@
   "banners": [
     {
       "_type": "1) SINGLE SELECT  —  ACTIVE",
-      "id": "2026-0605-single",
-      "active": false,
+      "id": "2026-0702",
+      "active": true,
       "emoji": "🎹",
       "title": "What should we build next?",
-      "message": "Help us prioritize.",
+      "message": "Vote for the one you want most.",
       "type": "choice",
-      "prompt": "Pick the one you want most.",
-      "choices": ["More songs", "Better practice tools", "Sheet music export", "Metronome"],
+      "prompt": "Which feature do you want most?",
+      "choices": [
+        "Easy Mode — auto-simplify hard songs",
+        "Scan sheet music into a piano roll",
+        "Better AI piano covers",
+        "Song packs — curated collections"
+      ],
       "allowMultiple": false,
       "allowOther": true,
       "submitLabel": "Submit"
@@ -29,7 +34,7 @@
     {
       "_type": "3) INPUT FIELD / FREE RESPONSE  —  set active:true to use",
       "id": "2026-06-input3",
-      "active": true,
+      "active": false,
       "emoji": "💬",
       "title": "We'd love your input",
       "message": "Tell us how to improve Keys.",
